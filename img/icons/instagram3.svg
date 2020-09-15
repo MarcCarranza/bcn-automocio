@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="54px" id="Layer_1" style="enable-background:new 0 0 56.7 56.7;" version="1.1" viewBox="3.621028184890747 4.945794105529785 49.722896575927734 49.722896575927734" width="54px" xml:space="preserve"  preserveAspectRatio="xMidYMid meet"><rect id="svgEditorBackground" x="3.621028184890747" y="4.945794105529785" width="49.722896575927734" height="49.722896575927734" style="fill:url(#svgEditorGrid2); stroke: none;"/><rect x="12.187850631286054" y="15.367289926404151" style="fill:white;stroke:none;stroke-width:1px;" id="e1_rectangle" width="31.882710709378728" height="30.204673303621952"/><defs id="svgEditorDefs"><linearGradient gradientUnits="objectBoundingBox" id="lgrd2-peachpuff-sienna-h" spreadMethod="pad" x1="0%" x2="100%" y1="0%" y2="0%"><stop offset="0%" style="stop-color:peachpuff;  stop-opacity:1;"/><stop offset="100%" style="stop-color:sienna;  stop-opacity:1"/></linearGradient><linearGradient id="gradient1" xlink:href="#lgrd2-black-white"/><pattern id="svgEditorGrid0" patternUnits="userSpaceOnUse" x="0" y="0" width="10" height="10" viewBox="0 0 10 10">
+		<defs>
+			<marker id="svgEditorGridMkCircle" viewBox="0 0 2 2" refX="1" refY="1" markerUnits="strokeWidth" markerWidth="2" markerHeight="2" orient="0deg">
+			   <circle cx="1" cy="1" r="1" style="fill:black;stroke:none;"/>
+			</marker>
+			<marker id="svgEditorGridMkSquare" viewBox="0 0 2 2" refX="1" refY="1" markerUnits="strokeWidth" markerWidth="2" markerHeight="2" orient="0deg">
+			   <rect x="0" y="0" width="2" height="2" style="fill:black;stroke:none;"/>
+			</marker>
+		</defs>
+		<g marker-start="url(#svgEditorGridMkCircle)" marker-end="url(#svgEditorGridMkCircle)" marker-mid="url(#svgEditorGridMkCircle)" stroke="none">
+			<path d="M0,0M10,0M10,10M0,10" stroke-width="0.4"/>
+			<path d="M5,0M0,5M5,5M10,5M5,10" stroke-width="0.2"/>
+			<g stroke-width="0.125">
+				<path d="M1,0M2,0M3,0M4,0M6,0M7,0M8,0M9,0"/>
+				<path d="M0,1M1,1M2,1M3,1M4,1M5,1M6,1M7,1M8,1M9,1M10,1"/>
+				<path d="M0,2M1,2M2,2M3,2M4,2M5,2M6,2M7,2M8,2M9,2M10,2"/>
+				<path d="M0,3M1,3M2,3M3,3M4,3M5,3M6,3M7,3M8,3M9,3M10,3"/>
+				<path d="M0,4M1,4M2,4M3,4M4,4M5,4M6,4M7,4M8,4M9,4M10,4"/>
+				<path d="M1,5M2,5M3,5M4,5M6,5M7,5M8,5M9,5"/>
+				<path d="M0,6M1,6M2,6M3,6M4,6M5,6M6,6M7,6M8,6M9,6M10,6"/>
+				<path d="M0,7M1,7M2,7M3,7M4,7M5,7M6,7M7,7M8,7M9,7M10,7"/>
+				<path d="M0,8M1,8M2,8M3,8M4,8M5,8M6,8M7,8M8,8M9,8M10,8"/>
+				<path d="M0,9M1,9M2,9M3,9M4,9M5,9M6,9M7,9M8,9M9,9M10,9"/>
+				<path d="M1,10M2,10M3,10M4,10M6,10M7,10M8,10M9,10"/>
+			</g>
+		</g>
+    </pattern><pattern id="svgEditorGrid1" patternUnits="userSpaceOnUse" x="0" y="0" width="10" height="10" viewBox="0 0 10 10">
+		<g marker-start="url(#svgEditorGridMkSquare)" marker-end="url(#svgEditorGridMkSquare)" marker-mid="url(#svgEditorGridMkSquare)" stroke="none">
+			<path d="M0,0M10,0M10,10M0,10" stroke-width="0.4"/>
+			<path d="M5,0M0,5M5,5M10,5M5,10" stroke-width="0.2"/>
+			<g stroke-width="0.125">
+				<path d="M1,0M2,0M3,0M4,0M6,0M7,0M8,0M9,0"/>
+				<path d="M0,1M1,1M2,1M3,1M4,1M5,1M6,1M7,1M8,1M9,1M10,1"/>
+				<path d="M0,2M1,2M2,2M3,2M4,2M5,2M6,2M7,2M8,2M9,2M10,2"/>
+				<path d="M0,3M1,3M2,3M3,3M4,3M5,3M6,3M7,3M8,3M9,3M10,3"/>
+				<path d="M0,4M1,4M2,4M3,4M4,4M5,4M6,4M7,4M8,4M9,4M10,4"/>
+				<path d="M1,5M2,5M3,5M4,5M6,5M7,5M8,5M9,5"/>
+				<path d="M0,6M1,6M2,6M3,6M4,6M5,6M6,6M7,6M8,6M9,6M10,6"/>
+				<path d="M0,7M1,7M2,7M3,7M4,7M5,7M6,7M7,7M8,7M9,7M10,7"/>
+				<path d="M0,8M1,8M2,8M3,8M4,8M5,8M6,8M7,8M8,8M9,8M10,8"/>
+				<path d="M0,9M1,9M2,9M3,9M4,9M5,9M6,9M7,9M8,9M9,9M10,9"/>
+				<path d="M1,10M2,10M3,10M4,10M6,10M7,10M8,10M9,10"/>
+			</g>
+		</g>
+    </pattern><pattern id="svgEditorGrid2" patternUnits="userSpaceOnUse" x="0" y="0" width="10" height="10" viewBox="0 0 10 10">
+	 
+	 <g style="fill:none;stroke:black;stroke-width:0.4" transform="scale(0.1)">
+	     troisieme niveau 10 1 
+	     <g style="stroke-dasharray:2 8;">
+		<path d="M-1 0 h102 M-1 10 h102 M-1 20 h102 M-1 30 h102 M-1 40 h102 M-1 50 h102 M-1 60 h102 M-1 70 h102 M-1 80 h102 M-1 90 h102 M-1 100 h102"/>
+		<path d="M0-1 v102 M10-1 v102 M20-1 v102 M30-1 v102 M40-1 v102 M50 -1 v102 M60-1 v102 M70-1 v102 M80-1 v102 M90-1 v102 M100-1 v102"/>
+	     </g>
+	      deuxieme niveau 50/3 
+	     <g style="stroke-dasharray:6 44;">
+		<path d="M-3 0 h106 M-3 50 h106 M-3 100 h106"/>
+		<path d="M0-3 v106 M50-3 v106 M100-3 v106"/>
+	     </g>
+	      premier niveau 100/5 
+	      <g style="stroke-dasharray:10 90;">
+		<path d="M-5 0 h110 M-5 100 h110"/>
+		<path d="M0-5 v119 M100-5 v110"/>
+	     </g>
+	 </g>
+	</pattern><linearGradient gradientUnits="objectBoundingBox" id="lgrd2-fire" spreadMethod="pad" x1="78.8%" x2="0%" y1="82.6%" y2="0%"><stop offset="0%" style="stop-color: rgb(249, 237, 50); stop-opacity: 1;"/><stop offset="0.6" style="stop-color: rgb(238, 42, 123); stop-opacity: 1;"/><stop style="stop-color: rgb(0, 42, 255);" offset="1"/></linearGradient><linearGradient gradientUnits="objectBoundingBox" id="gradient3" spreadMethod="pad" x1="100%" x2="0%" y1="100%" y2="0%" gradientTransform="rotate(0)"><stop offset="0" style="stop-color: rgb(249, 237, 50); stop-opacity: 1;"/><stop offset="0.903455" style="stop-color: rgb(238, 42, 123); stop-opacity: 1;"/><stop style="stop-color: rgb(0, 42, 255); stop-opacity: 1;" offset="1"/></linearGradient><linearGradient gradientUnits="objectBoundingBox" id="gradient2" spreadMethod="pad" x1="100%" x2="0%" y1="100%" y2="0%"><stop offset="0%" style="stop-color: rgb(249, 237, 50); stop-opacity: 1;"/><stop offset="0.8" style="stop-color: rgb(238, 42, 123); stop-opacity: 1;"/></linearGradient></defs><g><circle cx="28.1" cy="30" r="4.4" style="fill:url(#gradient2);"/><path d="M33.6,19.2h-11c-1.6000000000000014,0,-3,0.5,-3.8999999999999986,1.3999999999999986c-0.8999999999999986,0.8999999999999986,-1.3999999999999986,2.3000000000000007,-1.3999999999999986,3.8999999999999986v11.000000000000004c0,1.6000000000000014,0.5,3,1.5,4c1,0.8999999999999986,2.3000000000000007,1.3999999999999986,3.8999999999999986,1.3999999999999986h10.899999999999999c1.6000000000000014,0,3,-0.5,3.8999999999999986,-1.3999999999999986c1,-0.8999999999999986,1.5,-2.299999999999997,1.5,-3.8999999999999986v-11c0,-1.6000000000000014,-0.5,-2.8999999999999986,-1.3999999999999986,-3.8999999999999986c-1,-1.0000000000000036,-2.3000000000000043,-1.5000000000000036,-4,-1.5000000000000036ZM28.1,36.8c-3.8000000000000007,0,-6.800000000000001,-3.1000000000000014,-6.800000000000001,-6.800000000000001c0,-3.8000000000000007,3.1000000000000014,-6.800000000000001,6.800000000000001,-6.800000000000001s6.899999999999999,3.0000000000000036,6.899999999999999,6.800000000000004c0,3.799999999999997,-3.1000000000000014,6.799999999999997,-6.899999999999999,6.799999999999997ZM35.2,24.5c-0.8999999999999986,0,-1.6000000000000014,-0.6999999999999993,-1.6000000000000014,-1.6000000000000014s0.7000000000000028,-1.6000000000000014,1.6000000000000014,-1.6000000000000014s1.6000000000000014,0.6999999999999993,1.6000000000000014,1.6000000000000014s-0.7000000000000028,1.6000000000000014,-1.6000000000000014,1.6000000000000014Z" style="fill:url(#gradient3);"/><path d="M28.3,5.2c-13.6,0,-24.6,11,-24.6,24.6c0,13.599999999999998,11,24.600000000000005,24.6,24.600000000000005c13.599999999999998,0,24.600000000000005,-11,24.600000000000005,-24.6c0.09999999999999432,-13.600000000000005,-11.000000000000007,-24.600000000000005,-24.600000000000005,-24.600000000000005ZM41.4,35.6c0,2.299999999999997,-0.7999999999999972,4.299999999999997,-2.200000000000003,5.700000000000003c-1.3999999999999986,1.3999999999999986,-3.3999999999999986,2.1000000000000014,-5.600000000000001,2.1000000000000014h-10.899999999999995c-2.1999999999999993,0,-4.199999999999999,-0.7000000000000028,-5.599999999999998,-2.1000000000000014c-1.5,-1.3999999999999986,-2.1999999999999993,-3.3999999999999986,-2.1999999999999993,-5.700000000000003v-11c0,-4.600000000000001,3.1000000000000014,-7.800000000000001,7.800000000000001,-7.800000000000001h11c2.299999999999997,0,4.200000000000003,0.8000000000000007,5.600000000000001,2.1999999999999993c1.3999999999999986,1.3999999999999986,2.1000000000000014,3.3000000000000007,2.1000000000000014,5.600000000000001v11Z" style="fill:url(#lgrd2-fire);"/></g></svg>
