@@ -1,281 +1,369 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Barcelona Automocio</title>
-    <meta name="description" content="Barcelona Automocio">
-    <meta name="author" content="marccarranzaferrez@gmail.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./lib/swiper.min.css">
-    <link rel="stylesheet" href="./lib/hamburgers.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="description" content="Barcelona Automocio" />
+    <meta name="author" content="marccarranzaferrez@gmail.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./lib/swiper.min.css" />
+    <link rel="stylesheet" href="./lib/hamburgers.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="./lib/swiper.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <nav class="nav">
-            <button class="hamburger hamburger--collapse" type="button" id="burger">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </button>
-            <div class="logo">
-                <p class="logo__text">Barcelona Automoció</p>
+      <nav class="nav">
+        <button class="hamburger hamburger--collapse" type="button" id="burger">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <div class="logo">
+          <p class="logo__text">Barcelona Automoció</p>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__element">
+            <div class="filler"></div>
+            <a class="nav__link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav__element">
+            <a class="nav__link" href="#trabajos">Galería</a>
+          </li>
+          <li class="nav__element">
+            <a class="nav__link" href="#presupuestos">Precios</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="cover">
+        <div class="motto">
+          <div class="motto__wrapper">
+            <p class="motto__text">Calidad a un precio inmejorable.</p>
+          </div>
+        </div>
+        <div class="buttons__wrapper">
+          <a href="#contacto" class="contacto__btn">Pide presupuesto</a>
+          <a href="#localizacion" class="localizacion__btn">Donde estamos</a>
+        </div>
+      </section>
+      <section id="servicios" class="servicios">
+        <h1 class="servicios__title">Qué ofrecemos</h1>
+        <ul class="servicios__list">
+          <li class="servicios__servicio servicio__llantas">
+            <img
+              class="servicio__img"
+              src="./img/icons/wheel.svg"
+              alt="Icono de las llantas"
+            />
+            <p class="servicio__text">Pintura de llantas</p>
+          </li>
+          <li class="servicios__servicio servicio__itv">
+            <img
+              class="servicio__img"
+              src="./img/icons/car.svg"
+              alt="Icono de un coche"
+            />
+            <p class="servicio__text">Pre-ITV y neumáticos</p>
+          </li>
+          <li class="servicios__servicio servicio__pintura">
+            <img
+              class="servicio__img"
+              src="./img/icons/car-painting.svg"
+              alt="Icono de una pistola de pintura"
+            />
+            <p class="servicio__text">Pintura de coche y moto</p>
+          </li>
+          <li class="servicios__servicio servicio__frenos">
+            <img
+              class="servicio__img"
+              src="./img/icons/chassis.svg"
+              alt="Icono de la suspensión"
+            />
+            <p class="servicio__text">Frenos, amortiguadores y escape</p>
+          </li>
+          <li class="servicios__servicio servicio__distribucion">
+            <img
+              class="servicio__img"
+              src="./img/icons/gearshift.svg"
+              alt="Icono de un cambio de marchas"
+            />
+            <p class="servicio__text">Cambios de distribución, embragues</p>
+          </li>
+          <li class="servicios__servicio servicio__revision">
+            <img
+              class="servicio__img"
+              src="./img/icons/lifter.svg"
+              alt="Icono de un elevador"
+            />
+            <p class="servicio__text">
+              Revisiones completas, cambio de aceite y filtros
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="trabajos" class="trabajos">
+        <h1 class="trabajos__title">Nuestros trabajos</h1>
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="./img/trabajos/350z-2.jpg"
+                alt="Trabajo de pintura rojo Nissan 350z"
+                class="swiper-img"
+              />
             </div>
-            <ul class="nav__list">
-                <li class="nav__element">
-                    <div class="filler"></div>
-                    <a class="nav__link" href="#servicios">Servicios</a>
-                </li>
-                <li class="nav__element">
-                    <a class="nav__link" href="#trabajos">Galería</a>
-                </li>
-                <li class="nav__element">
-                    <a class="nav__link" href="#presupuestos">Precios</a>
-                </li>
+            <div class="swiper-slide">
+              <img
+                src="./img/trabajos/focus.jpg"
+                alt="Trabajo de pintura azul Ford Focus"
+                class="swiper-img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/trabajos/arosa.jpg"
+                alt="Trabajo de pintura gris oscuro Seat Arosa"
+                class="swiper-img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/trabajos/leon.jpg"
+                alt="Trabajo de pintura negro Seat Leon"
+                class="swiper-img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/trabajos/clc180.jpg"
+                alt="Trabajo de pintura gris Mercedes CLC180"
+                class="swiper-img"
+              />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="presupuesto" id="presupuestos">
+        <div class="presupuesto__wrapper">
+          <div class="precios">
+            <ul class="precio__list">
+              <li class="precio__title">Precios</li>
+              <li class="precio__element">
+                <span class="precio__tipo">Montaje neumáticos</span>
+                <p class="precio__precio">15€/u</p>
+              </li>
+              <li class="precio__element">
+                <span class="precio__tipo">Taller mecánico</span>
+                <p class="precio__precio">42€/h</p>
+              </li>
+              <li class="precio__element">
+                <span class="precio__tipo">Plancha y pintura</span>
+                <p class="precio__precio">50€/h</p>
+              </li>
             </ul>
-        </nav>
-        <section class="cover">
-            <div class="motto">
-                <div class="motto__wrapper">
-                    <p class="motto__text">Calidad a un precio inmejorable.</p>
-                </div>
-            </div>
-            <div class="buttons__wrapper">
-                <a href="#contacto" class="contacto__btn">Pide presupuesto</a>
-                <a href="#localizacion" class="localizacion__btn">Donde estamos</a>
-            </div>
-        </section>
-        <section id="servicios" class="servicios">
-            <h1 class="servicios__title">Qué ofrecemos</h1>
-            <ul class="servicios__list">
-                <li class="servicios__servicio servicio__llantas">
-                    <img class="servicio__img" src="./img/icons/wheel.svg" alt="Icono de las llantas">
-                    <p class="servicio__text">Pintura de llantas</p>
-                </li>
-                <li class="servicios__servicio servicio__itv">
-                    <img class="servicio__img" src="./img/icons/car.svg" alt="Icono de un coche">
-                    <p class="servicio__text">Pre-ITV y neumáticos</p>
-                </li>
-                <li class="servicios__servicio servicio__pintura">
-                    <img class="servicio__img" src="./img/icons/car-painting.svg" alt="Icono de una pistola de pintura">
-                    <p class="servicio__text">Pintura de coche y moto</p>
-                </li>
-                <li class="servicios__servicio servicio__frenos">
-                    <img class="servicio__img" src="./img/icons/chassis.svg" alt="Icono de la suspensión">
-                    <p class="servicio__text">Frenos, amortiguadores y escape</p>
-                </li>
-                <li class="servicios__servicio servicio__distribucion">
-                    <img class="servicio__img" src="./img/icons/gearshift.svg" alt="Icono de un cambio de marchas">
-                    <p class="servicio__text">Cambios de distribución, embragues</p>
-                </li>
-                <li class="servicios__servicio servicio__revision">
-                    <img class="servicio__img" src="./img/icons/lifter.svg" alt="Icono de un elevador">
-                    <p class="servicio__text">Revisiones completas, cambio de aceite y filtros</p>
-                </li>
+            <ul class="precio__list">
+              <li class="precio__title">Presupuestos orientativos</li>
+              <li class="precio__element">
+                <span class="precio__tipo">Pintado aleta delantera</span>
+                <p class="precio__precio">80€</p>
+              </li>
+              <li class="precio__element">
+                <span class="precio__tipo">Pintado paragolpes</span>
+                <p class="precio__precio">100€</p>
+              </li>
+              <li class="precio__element">
+                <span class="precio__tipo">Pintado vehículo pequeño</span>
+                <p class="precio__precio">800€</p>
+              </li>
+              <li class="precio__element">
+                <span class="precio__tipo">Pintado vehículo 5 puertas</span>
+                <p class="precio__precio">1000€</p>
+              </li>
+              <li class="precio__element">
+                <span class="precio__tipo">Cambio color</span>
+                <p class="precio__precio">1600€</p>
+              </li>
             </ul>
-        </section>
-        <section id="trabajos" class="trabajos">
-            <h1 class="trabajos__title">
-                Nuestros trabajos
-            </h1>
-            <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <img src="./img/trabajos/350z-2.jpg" alt="Trabajo de pintura rojo Nissan 350z" class="swiper-img">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./img/trabajos/focus.jpg" alt="Trabajo de pintura azul Ford Focus" class="swiper-img">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./img/trabajos/arosa.jpg" alt="Trabajo de pintura gris oscuro Seat Arosa" class="swiper-img">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./img/trabajos/leon.jpg" alt="Trabajo de pintura negro Seat Leon" class="swiper-img">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./img/trabajos/clc180.jpg" alt="Trabajo de pintura gris Mercedes CLC180" class="swiper-img">
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
+          </div>
+          <div class="alquiler">
+            <img
+              src="https://images.unsplash.com/photo-1485828560670-1f8241f74c0e?ixlib=rb-0.3.5&s=aaee7225c89f7b1bcc05e1a6d9c3a4f8&auto=format&fit=crop&w=1050&q=80"
+              alt="Imagen promocional del alquiler de cabina"
+              class="alquiler__img"
+            />
+            <div class="alquiler__data">
+              <h2 class="alquiler__title">Alquiler Cabina de Pintura</h2>
+              <ul class="alquiler__list">
+                <li class="alquiler__element">
+                  <span class="alquiler__tiempo">1/2 Día</span>
+                  <span class="alquiler__precio">100€</span>
+                </li>
+                <li class="alquiler__element">
+                  <span class="alquiler__tiempo">1 Día</span>
+                  <span class="alquiler__precio">200€</span>
+                </li>
+                <li class="alquiler__element">
+                  + Máquina de lavado de pistolas
+                </li>
+              </ul>
             </div>
-        </section>
-        <section class="presupuesto" id="presupuestos">
-            <div class="presupuesto__wrapper">
-                <div class="precios">
-                    <ul class="precio__list">
-                        <li class="precio__title">Precios</li>
-                        <li class="precio__element">
-                            <span class="precio__tipo">Montaje neumáticos</span>
-                            <p class="precio__precio">15€/u</p>
-                        </li>
-                        <li class="precio__element">
-                            <span class="precio__tipo">Taller mecánico</span>
-                            <p class="precio__precio">42€/h</p>
-                        </li>
-                        <li class="precio__element">
-                            <span class="precio__tipo">Plancha y pintura</span>
-                            <p class="precio__precio">50€/h</p>
-                        </li>
-                    </ul>
-                    <ul class="precio__list">
-                        <li class="precio__title">Presupuestos orientativos</li>
-                        <li class="precio__element">
-                            <span class="precio__tipo">Pintado aleta delantera</span>
-                            <p class="precio__precio">80€</p>
-                        </li>
-                        <li class="precio__element">
-                            <span class="precio__tipo">Pintado paragolpes</span>
-                            <p class="precio__precio">100€</p>
-                        </li>
-                        <li class="precio__element">
-                            <span class="precio__tipo">Pintado vehículo pequeño</span>
-                            <p class="precio__precio">800€</p>
-                        </li>
-                        <li class="precio__element">
-                            <span class="precio__tipo">Pintado vehículo 5 puertas</span>
-                            <p class="precio__precio">1000€</p>
-                        </li>
-                        <li class="precio__element">
-                            <span class="precio__tipo">Cambio color</span>
-                            <p class="precio__precio">1600€</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="alquiler">
-                    <img src="https://images.unsplash.com/photo-1485828560670-1f8241f74c0e?ixlib=rb-0.3.5&s=aaee7225c89f7b1bcc05e1a6d9c3a4f8&auto=format&fit=crop&w=1050&q=80"
-                        alt="Imagen promocional del alquiler de cabina" class="alquiler__img">
-                    <div class="alquiler__data">
-                        <h2 class="alquiler__title">
-                            Alquiler Cabina de Pintura
-                        </h2>
-                        <ul class="alquiler__list">
-                            <li class="alquiler__element">
-                                <span class="alquiler__tiempo">1/2 Día</span>
-                                <span class="alquiler__precio">100€</span>
-                            </li>
-                            <li class="alquiler__element">
-                                <span class="alquiler__tiempo">1 Día</span>
-                                <span class="alquiler__precio">200€</span>
-                            </li>
-                            <li class="alquiler__element">
-                                + Máquina de lavado de pistolas
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="contacto" id="contacto">
-                <ul class="contacto__list">
-                    <li class="contacto__element">
-                        <span class="contacto__title">Email</span>
-                        <span class="contacto__data">bcnautomocio@gmail.com</span>
-                    </li>
-                    <li class="contacto__element">
-                        <span class="contacto__title">Teléfono y Whatsapp</span>
-                        <span class="contacto__data">660 521 012</span>
-                    </li>
-
-                </ul>
-            </div>
-        </section>
-        <section class="localizacion" id="localizacion">
-            <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCrxwH7aYgqWIJ9HQmfMnZQjmS1Cr7948o
+          </div>
+        </div>
+        <div class="contacto" id="contacto">
+          <ul class="contacto__list">
+            <li class="contacto__element">
+              <span class="contacto__title">Email</span>
+              <span class="contacto__data">bcnautomocio@gmail.com</span>
+            </li>
+            <li class="contacto__element">
+              <span class="contacto__title">Teléfono y Whatsapp</span>
+              <span class="contacto__data">660 521 012</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="localizacion" id="localizacion">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2989.0237043824077!2d1.8766883157357936!3d41.48208579808161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4890dca52c76f%3A0xbe5cabf0492adc4!2sBCN%20Automoci%C3%B3!5e0!3m2!1sen!2ses!4v1600166970115!5m2!1sen!2ses"
+          frameborder="0"
+          style="border: 0;"
+          allowfullscreen
+        ></iframe>
+        <!-- <iframe
+          frameborder="0"
+          style="border: 0"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCrxwH7aYgqWIJ9HQmfMnZQjmS1Cr7948o
                       &q=BCN+Automocio"
-                allowfullscreen>
-            </iframe>
-        </section>
-        <footer class="footer">
-            <div class="credits">
-                <div class="credits__credit">
-                    <span class="footer__text">Iconos</span>
-                    <p class="credits__icons">
-                        <a target="_blank" href="https://www.flaticon.com/authors/those-icons" class="footer__link">
-                            Those Icons
-                        </a>
-                        <span class="footer__text">&</span>
-                        <a target="_blank" href="https://www.flaticon.com/authors/freepik" class="footer__link">
-                            Social
-                        </a>
-                    </p>
-                </div>
-                <p class="credits__credit">
-                    <span class="footer__text">Fotografía principal</span>
-                    <a target="_blank" href="https://unsplash.com/photos/iflRMZelx0M" class="footer__link">
-                        Rishab Lamichhane
-                    </a>
-                </p>
-                <p class="credits__credit">
-                    <span class="footer__text">Fotografía secundaria</span>
-                    <a target="_blank" href="https://unsplash.com/photos/Z2EgLCJob40" class="footer__link">
-                        Marten Bjork
-                    </a>
-                </p>
-            </div>
+          allowfullscreen
+        > -->
+        </iframe>
+      </section>
+      <footer class="footer">
+        <div class="credits">
+          <div class="credits__credit">
+            <span class="footer__text">Iconos</span>
+            <p class="credits__icons">
+              <a
+                target="_blank"
+                href="https://www.flaticon.com/authors/those-icons"
+                class="footer__link"
+              >
+                Those Icons
+              </a>
+              <span class="footer__text">&</span>
+              <a
+                target="_blank"
+                href="https://www.flaticon.com/authors/freepik"
+                class="footer__link"
+              >
+                Social
+              </a>
+            </p>
+          </div>
+          <p class="credits__credit">
+            <span class="footer__text">Fotografía principal</span>
+            <a
+              target="_blank"
+              href="https://unsplash.com/photos/iflRMZelx0M"
+              class="footer__link"
+            >
+              Rishab Lamichhane
+            </a>
+          </p>
+          <p class="credits__credit">
+            <span class="footer__text">Fotografía secundaria</span>
+            <a
+              target="_blank"
+              href="https://unsplash.com/photos/Z2EgLCJob40"
+              class="footer__link"
+            >
+              Marten Bjork
+            </a>
+          </p>
+        </div>
 
-            <div class="redes">
-                <p class="footer__text">Nuestras redes</p>
-                <div class="redes__sociales">
-                    <a target="_blank" class="redes__link" href="https://www.facebook.com/bcnautomocio/">
-                        <img src="./img/icons/facebook.svg" alt="Facebook Link" class="redes__icon">
-                    </a>
-                    <a target="_blank" class="redes__link" href="https://www.instagram.com/bcnautomocio/">
-                        <img src="./img/icons/instagram3.svg"  alt="Instagram Link" class="redes__icon instagram">
-                    </a>
-                </div>
-                <div class="author">
-                    <span class="footer__text">Diseño por</span>
-                    <a href="https://linkedin.com/in/marccarranza" target="_blank" class="footer__author">
-                        Marc Carranza
-                    </a>
-                </div>
-            </div>
-        </footer>
+        <div class="redes">
+          <p class="footer__text">Nuestras redes</p>
+          <div class="redes__sociales">
+            <a
+              target="_blank"
+              class="redes__link"
+              href="https://www.facebook.com/bcnautomocio/"
+            >
+              <img
+                src="./img/icons/facebook.svg"
+                alt="Facebook Link"
+                class="redes__icon"
+              />
+            </a>
+            <a
+              target="_blank"
+              class="redes__link"
+              href="https://www.instagram.com/bcnautomocio/"
+            >
+              <img
+                src="./img/icons/instagram3.svg"
+                alt="Instagram Link"
+                class="redes__icon instagram"
+              />
+            </a>
+          </div>
+          <div class="author">
+            <span class="footer__text">Diseño por</span>
+            <a
+              href="https://linkedin.com/in/marccarranza"
+              target="_blank"
+              class="footer__author"
+            >
+              Marc Carranza
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
     <script>
-        let swiper = new Swiper('.swiper-container', {
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'progressbar',
-            }
-        });
-        let hamburger = document.querySelector(".hamburger");
-        // On click
-        hamburger.addEventListener("click", function () {
-            // Toggle class "is-active"
-            hamburger.classList.toggle("is-active");
-            // Do something else, like open/close menu
-        });
-        let menu = document.getElementById('burger');
-        let navbar = document.getElementsByClassName('nav__list');
-        let navEl = document.getElementsByClassName('nav__element');
-        menu.addEventListener("click", function () {
-            open(navbar, navEl, hamburger);
-        });
+      let swiper = new Swiper(".swiper-container", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+      });
+      let hamburger = document.querySelector(".hamburger");
+      // On click
+      hamburger.addEventListener("click", function () {
+        // Toggle class "is-active"
+        hamburger.classList.toggle("is-active");
+        // Do something else, like open/close menu
+      });
+      let menu = document.getElementById("burger");
+      let navbar = document.getElementsByClassName("nav__list");
+      let navEl = document.getElementsByClassName("nav__element");
+      menu.addEventListener("click", function () {
+        open(navbar, navEl, hamburger);
+      });
 
-        function open(sidebar, elements, burger) {
-            let i = 0;
-            if (sidebar[0].classList[1]) {
-                sidebar[0].classList.remove("nav__list-active");
-                burger.style.position = "absolute";
-                while (i < elements.length) {
-                    elements[i].style.display = "none";
-                    i++;
-                }
-            } else {
-                sidebar[0].classList.add("nav__list-active");
-                burger.style.position = "fixed";
-                while (i < elements.length) {
-                    elements[i].style.display = "block";
-                    i++;
-                }
-            }
+      function open(sidebar, elements, burger) {
+        let i = 0;
+        if (sidebar[0].classList[1]) {
+          sidebar[0].classList.remove("nav__list-active");
+          burger.style.position = "absolute";
+          while (i < elements.length) {
+            elements[i].style.display = "none";
+            i++;
+          }
+        } else {
+          sidebar[0].classList.add("nav__list-active");
+          burger.style.position = "fixed";
+          while (i < elements.length) {
+            elements[i].style.display = "block";
+            i++;
+          }
         }
+      }
     </script>
-</body>
-
+  </body>
 </html>
